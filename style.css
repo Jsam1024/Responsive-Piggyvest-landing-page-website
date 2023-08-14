@@ -500,27 +500,27 @@ hr{
     }
     #navigator .sign a{
         text-decoration: none;
-        text-transform: uppercase;
         color: black;
         text-align: center;
         border-radius: 10px;
         padding-bottom: -20px;
     }
     #navigator ul li.sign a{
-        font-size: 15px;
+        font-size: 10px;
+        text-transform: none;
     }
     #navigator ul li.sign{
-        width: 80px;
-        height: 30px;
+        width: 65px !important;
+        height: 25px !important;
         border-radius: 7px;
-        margin-top: 7px;
+        margin-top: 5px;
         border: 1px solid black;
     }
     #navigator .sign{
         display: block;
         margin-right: 20px;
-        padding-top: 10px;
-        padding-bottom: -10px;
+        padding-top: 15px;
+        padding-bottom: 5px;
     }
     #navigator{
         width: 100%;
