@@ -925,3 +925,450 @@ hr{
 
 
 }
+
+@media only screen and (max-width:980px){
+    body{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+    #header{
+        width: 410px;
+        margin: 0 auto;
+    }
+    .save, .invest,
+    .stories, .faqs, .resources, .account{
+        display: none;
+    }
+    #navigator img{
+        width: 150px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #navigator .sign a{
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+        border-radius: 10px;
+        padding-bottom: -20px;
+    }
+    #navigator .sign{
+        display: block;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: -10px;
+    }
+    #navigator{
+        width: 100%;
+        height: 130px;
+        margin-top: -10px;
+    }
+    #navigator img{
+        margin-top: 5px;
+        width: 180px;
+        margin-left: -13px;
+    }
+
+
+    #im{
+        display: block;
+        margin-top: 240px;
+    }
+    #mid{
+        display: block;
+        width: 380px;
+        height: 350px;
+        text-align: center;
+        margin: 10px;
+        padding: 0;
+    }
+    #mid h2{
+        font-size: 40px;
+    }
+    #mid p{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #mid div a{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #mid div{
+        margin-top: 25px;
+    }
+
+
+    #abt{
+        display: block;
+        width: 380px;
+        height: 370px;
+        margin: 10px;
+        padding: 0px;
+    }
+    #abt .yfit img{
+        width: 140px;
+        margin-top: 250px;
+        margin-left: 250px;
+    }
+    #abt .kcol img{
+        width: 140px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    #abt .sgni img{
+        width: 140px;
+        margin-left: -30px;
+        margin-top: 75px;
+    }
+    #abt .aria img{
+        width: 140px;
+    }
+    #abt .aria{
+        margin-top: 100px;
+        margin-left: -5px;
+    }
+    #abt .knab img{
+        width: 140px;
+    }
+    #abt .knab{
+        margin-top:35px;
+        margin-left: 120px;
+    }
+
+    #second{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    #lock{
+        margin: 0px 100px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    #locker{
+        width: 380px;
+        height: 380px;
+        margin: 10px;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px;
+    }
+    #locker p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #third{
+        display: block;
+        margin: 0px;
+    }
+    #build{
+        width: 380px;
+        height: 300px;
+        text-align: center;
+        margin: 10px;
+        margin-top: 60px;
+        padding: 0px;
+        font-size: 26px;
+    }
+    #build p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #savings{
+        width: 370px;
+        margin: 10px;
+        margin-top: -50px;
+        height: 430px;
+        text-align: center;
+        padding: 10px;
+        font-size: 26px;
+        padding-top: 40px;
+    }
+    #savings p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #savings .terminal{
+        text-align: left;
+        padding-left: 30px;
+    }
+
+
+    #forth{
+        display: block;
+        margin: 0px;
+    }
+    #until{
+        width: 370px;
+        margin: 10px;
+        margin-top: 50px;
+        height: 430px;
+        text-align: center;
+        padding: 10px;
+        font-size: 26px;
+        padding-top: 40px;
+    }
+    #until p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #until .terminal{
+        text-align: left;
+        padding-left: 30px;
+    }
+    #target{
+        width: 370px;
+        margin: 10px;
+        margin-top: 50px;
+        height: 430px;
+        text-align: center;
+        padding: 10px;
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    #target p{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #target .terminal{
+        text-align: left;
+        padding-left: 30px;
+        margin-top: -15px;
+    }
+
+
+    #fifth{
+        display: block;
+        margin: 0px;
+    }
+    #naira{
+        width: 370px;
+        margin: 10px;
+        margin-top: 50px;
+        height: 430px;
+        text-align: center;
+        padding: 10px;
+        font-size: 26px;
+        padding-top: 40px;
+    }
+    #naira p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #naira .terminal{
+        text-align: left;
+        padding-left: 30px;
+    }
+    #dollar{
+        width: 370px;
+        margin: 10px;
+        margin-top: 50px;
+        height: 430px;
+        text-align: center;
+        padding: 10px;
+        font-size: 26px;
+        padding-top: 40px;
+    }
+    #dollar p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #dollar .terminal{
+        text-align: left;
+        padding-left: 30px;
+    }
+
+
+    #diverse{
+        margin: 10px;
+        margin-top: 30px;
+        padding: 0px;
+        width: 380px;
+        height: 930px;
+        text-align: center;
+    }
+    #diverse h1{
+        font-size: 30px;
+        padding-top: 55px;
+    }
+    #diverse .future{
+        margin: 0px;
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #returns{
+        display: block;
+        margin: 10px;
+        margin-top: 25px;
+        width: 360px;
+        height: 620px;
+        border-radius: 20px;
+    }
+    #returns .ssalc{
+        margin: 0px;
+        margin-top: 30px;
+        padding: 10px;
+        padding-top: 0px;
+        text-align: center;
+        line-height: 27px;
+        height: 301.5px;
+    }
+    #returns .ssalc h2{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    #returns .ssalc p{
+        font-size: 18px;
+    }
+    .ssalc p.ruoy{
+        margin-top: -70px;
+    }
+    #returns .enenen img{
+        width: 310px;
+    }
+    #returns .enenen{
+        margin: 0px;
+    }
+
+
+    #culture{
+        margin: 10px;
+        margin-top: 60px;
+        padding: 10px;
+        width: 380px;
+        height: 800px;
+        text-align: center;
+        font-size: 18px;
+    }
+    #culture p{
+        font-size: 19px;
+        margin: 0px;
+        line-height: 30px;
+    }
+    #culture iframe{
+        width: 360px;
+        height: 420px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+
+    #mkjn{
+        display: block;
+        width: 380px;
+        height: 750px;
+        margin: 10px;
+        margin-top: 0px;
+    }
+    .kcab{
+        margin: 0px;
+    }
+    .noil{
+        margin: 0px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .noil div{
+        margin-top: 20px;
+    }
+    .noil h1{
+        font-size: 30px;
+    }
+    .noil img{
+        width: 15px;
+    }
+
+
+    #nineth{
+        width: 100%;
+    }
+    #pynmt{
+        width: 380px;
+        margin: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    #pynmt h1{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #pynmt img{
+        margin: 0px;
+        padding: 20px;
+        width: 38%;
+    }
+
+    #tenth{
+        display: block;
+        width: 380px;
+        margin: 10px;
+        margin-top: 100px;
+    }
+    #compliance{
+        margin: 0px;
+    }
+    #compliance img{
+        width: 150px;
+        margin: 0px;
+        padding: 10px;
+    }
+    #tenth table{
+        margin: 0px;
+        margin-top: 40px;
+        padding: 0px;
+    }
+    th,td{
+        padding: 0px 15px 10px 15px;
+    }
+    table a{
+        font-size: 16px;
+    }
+    th{
+        font-size: 18px;
+    }
+
+    #tesmot{
+        text-align: left;
+        margin: 0px;
+        margin-top: 35px;
+        padding-left: 15px;
+    }
+    #tesmot p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #tesmot img{
+        margin-right: 8px;
+    }
+
+    #rhrh{
+        width: 380px;
+        margin: 10px;
+        margin-bottom: 0px;
+        display: block;
+    }
+    #rhrh p{
+        margin: 0px;
+        font-size: 10px;
+        line-height: 25px;
+    }
+    hr{
+        margin-bottom: 20px;
+    }
+
+    
+
+
+
+
+}
