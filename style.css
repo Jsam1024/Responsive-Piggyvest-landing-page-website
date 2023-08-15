@@ -507,11 +507,12 @@ hr{
     }
     #navigator ul li.sign a{
         font-size: 10px;
-        text-transform: none;
+        text-transform: uppercase;
     }
     #navigator ul li.sign{
-        width: 65px !important;
+        width: 50px !important;
         height: 25px !important;
+        padding: 0 !important;
         border-radius: 7px;
         margin-top: 5px;
         border: 1px solid black;
@@ -963,11 +964,12 @@ hr{
     }
     #navigator ul li.sign a{
         font-size: 10px;
-        text-transform: none;
+        text-transform: uppercase;
     }
     #navigator ul li.sign{
-        width: 65px !important;
+        width: 50px !important;
         height: 25px !important;
+        padding: 0 !important;
         border-radius: 7px;
         margin-top: 5px;
         border: 1px solid black;
