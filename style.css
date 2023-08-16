@@ -11,6 +11,7 @@ body{
     top: 0;
     width: 100%;
     background-color: white;
+    height: 110px;
 }
 
 #navigator img{
@@ -24,11 +25,14 @@ body{
     justify-content: space-between;
 }
 #navigator li.sign{
-    border: 1px solid black;
-    width: 100px;
-    height: 50px;
     text-align: center;
+}
+#navigator li.sign a{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
     border-radius: 10px;
+    
 }
 #navigator a{
     text-decoration: none;
@@ -36,12 +40,15 @@ body{
     font-weight: bold;
 }
 #navigator li.account{
-    border: 1px solid black;
-    width: 200px;
-    height: 50px;
     text-align: center;
-    border-radius: 10px;
+    margin-right: 150px;
+}
+#navigator li.account a{
+    color: white;
     background-color: black;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 
@@ -493,45 +500,16 @@ hr{
     .stories, .faqs, .resources, .account{
         display: none;
     }
+
+    
     #navigator img{
-        width: 150px;
-        padding: 0px;
+        width: 170px;
+        padding-top: 5px;
+    }
+    #navigator li.sign a{
+        padding: 10px;
         margin: 0px;
-    }
-    #navigator .sign a{
-        text-decoration: none;
-        color: black;
-        text-align: center;
-        border-radius: 10px;
-        padding-bottom: -20px;
-    }
-    #navigator ul li.sign a{
-        font-size: 10px;
-        text-transform: uppercase;
-    }
-    #navigator ul li.sign{
-        width: 50px !important;
-        height: 25px !important;
-        padding: 0 !important;
-        border-radius: 7px;
-        margin-top: 5px;
-        border: 1px solid black;
-    }
-    #navigator .sign{
-        display: block;
         margin-right: 20px;
-        padding-top: 15px;
-        padding-bottom: 5px;
-    }
-    #navigator{
-        width: 100%;
-        height: 130px;
-        margin-top: -10px;
-    }
-    #navigator img{
-        margin-top: 5px;
-        width: 180px;
-        margin-left: -13px;
     }
 
 
@@ -950,47 +928,16 @@ hr{
     .stories, .faqs, .resources, .account{
         display: none;
     }
+    
     #navigator img{
-        width: 150px;
-        padding: 0px;
+        width: 170px;
+        padding-top: 5px;
+    }
+    #navigator li.sign a{
+        padding: 10px;
         margin: 0px;
-    }
-    #navigator .sign a{
-        text-decoration: none;
-        color: black;
-        text-align: center;
-        border-radius: 10px;
-        padding-bottom: -20px;
-    }
-    #navigator ul li.sign a{
-        font-size: 10px;
-        text-transform: uppercase;
-    }
-    #navigator ul li.sign{
-        width: 50px !important;
-        height: 25px !important;
-        padding: 0 !important;
-        border-radius: 7px;
-        margin-top: 5px;
-        border: 1px solid black;
-    }
-    #navigator .sign{
-        display: block;
         margin-right: 20px;
-        padding-top: 15px;
-        padding-bottom: 5px;
     }
-    #navigator{
-        width: 100%;
-        height: 130px;
-        margin-top: -10px;
-    }
-    #navigator img{
-        margin-top: 5px;
-        width: 180px;
-        margin-left: -13px;
-    }
-
 
     #im{
         display: block;
