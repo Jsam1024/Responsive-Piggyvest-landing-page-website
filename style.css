@@ -81,6 +81,12 @@ body{
     border-radius: 8px;
     padding: 14px 10px;
 }
+#mid div{
+    transition: 0.5s;
+}
+#mid div:hover{
+    transform: translate(0px, -6px);
+}
 .apple img{
     width: 16px;
 }
@@ -102,8 +108,21 @@ body{
     border-radius: 16px;
     margin-left: 40px;
     margin-top: -30px;
-    
+    z-index: -1;
 }
+#abt{
+    position: relative;
+    animation: water 4s ease-in-out infinite;
+}
+@keyframes water {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+  }
+
 
 #abt .yfit img{
     width: 225px;
@@ -192,6 +211,7 @@ body{
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.5s;
 }
 #savings:hover{
     background-color: rgb(51, 51, 164);
@@ -217,6 +237,7 @@ body{
     border-radius: 20px;
     cursor: pointer;
     margin-right: 30px;
+    transition: 0.5s;
 }
 #until:hover{
     color: white;
@@ -234,6 +255,7 @@ body{
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.5s;
 }
 #target:hover{
     color: white;
@@ -259,6 +281,7 @@ body{
     border-radius: 20px;
     cursor: pointer;
     margin-right: 30px;
+    transition: 0.5s;
 }
 #naira:hover{
     color: white;
@@ -276,6 +299,7 @@ body{
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.5s;
 }
 #dollar:hover{
     color: white;
@@ -392,6 +416,10 @@ body{
 }
 .noil div{
     display: inline-block;
+    transition: 0.5s;
+}
+.noil div:hover{
+    transform: translate(0px, -6px);
 }
 .noil a{
     border: 1px solid rgb(205, 204, 204);
