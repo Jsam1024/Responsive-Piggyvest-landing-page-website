@@ -13,11 +13,9 @@ body{
     background-color: white;
     height: 110px;
 }
-
 #navigator img{
     margin-top: -12px;
 }
-
 #navigator ul{
     padding-top: 30px;
     list-style-type: none;
